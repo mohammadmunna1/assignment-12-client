@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+.get-started-btn {
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    background-image: radial-gradient(at top left, #ce1e1e 0%, #e60606 50%);
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*phone devices*/
+@media only screen and (max-width:688px) {
+
+    .get-started-btn {
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+/*tablet devices*/
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .get-started-btn {
+        padding: 12px 24px 12px 24px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

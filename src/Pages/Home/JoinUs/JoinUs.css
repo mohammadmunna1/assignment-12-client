@@ -1,0 +1,6 @@
+.join-us-bg{
+    background-image:linear-gradient(to right, rgba(255, 10, 10, 0.52), rgba(255, 17, 17, 0.741)),
+    url('/assets/Join us.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

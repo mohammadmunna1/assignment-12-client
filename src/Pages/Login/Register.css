@@ -1,0 +1,21 @@
+  @keyframes gradient-change {
+    0% { background-position: 0% 50%; } /* Start at left */
+    100% { background-position: 100% 50%; } /* Transition to right */
+  }
+
+  /* Apply the animation and gradient to the text */
+  .changing-text {
+    animation: gradient-change 10s infinite; /* Change gradient every 5 seconds */
+    background: linear-gradient(45deg, #ca308a, rgb(187, 255, 0), #0f0, 
+    #ff0, #f00, #fb0094, #00f, #0f0, #ff0, #f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+  }
+
+  .login-page-cover-photo{
+    background-image:linear-gradient(to right, rgba(97, 60, 177, 0.52), rgba(58, 11, 125, 0.741)),
+    url('/assets/login page photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

@@ -1,0 +1,8 @@
+.reason {
+    border: 2px solid #eb1717;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .reason:hover {
+    box-shadow: 0 0 20px 2px rgba(240, 28, 0, 0.5);
+  }
