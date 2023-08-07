@@ -32,7 +32,7 @@ const Classes = () => {
     return (
         <div className='my-16'>
             <h2 className='text-4xl text-center mb-6  font-serif text-red-800'>Classes</h2>
-            <p className='text-justify max-w-5xl mx-auto text-slate-400 px-5'>Our programes are led by highly qualified instructors who are passionate about their respective disciplines. They bring their expertise, energy, and enthusiasm to each session, creating a supportive and motivating environment for everyone. From Online game and Multimedi to strength training and martial Fighter, our diverse class offerings cater to various interests and Crazy levels. Get yourself admitted now</p>
+            <p className='text-justify max-w-5xl mx-auto text-slate-400 px-5'>Our programes are led by highly qualified instructors who are passionate about their respective disciplines. They bring their expertise, energy, and enthusiasm to each session, creating a supportive and motivating environment for everyone. From Online game and Multimedi to giving training and martial Fighter, our diverse class offerings cater to various interests and Crazy levels. Get yourself admitted now</p>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 my-10'>
                 {
                     usedClasses.map(usedClass => <SingleClass
