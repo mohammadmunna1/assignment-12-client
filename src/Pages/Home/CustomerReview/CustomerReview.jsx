@@ -23,7 +23,7 @@ const CustomerReview = () => {
         {
             id: 3,
             name: 'Mike',
-            comment: 'I highly recommend Apex Sports for anyone looking to take their sports skills to the next level. The coaching is top-notch!',
+            comment: 'I highly recommend Apex Sports for anyone looking to take their sports skills to  next level. The coaching is top-notch!',
             image: '/assets/Customers/customer-3.png',
             rating: 4.4,
             job: 'Onliner Gammer'
