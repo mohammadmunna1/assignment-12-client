@@ -99,7 +99,7 @@ const Login = () => {
                             <label className="label">
                                 <span className="label-text">Your Email*</span>
                             </label>
-                            <input className="input input-bordered" type='email' {...register("email", { required: true })} />
+                            <input className="input input-bordered text-white" type='email' {...register("email", { required: true })} />
                             {errors.email && <span className='text-red-500'>Email is required</span>}
                         </div>
 
@@ -111,7 +111,7 @@ const Login = () => {
                                 <span className="label-text">Your Password*</span>
                                 <span className="btn btn-link btn-xs lowercase">Forgot password?</span>
                             </label>
-                            <input className='relative input input-bordered' type={show ? 'text' : 'password'} {...register("password", { required: true })} />
+                            <input className='relative input input-bordered text-white' type={show ? 'text' : 'password'} {...register("password", { required: true })} />
                             <FaEye onClick={handlePasswordToggle} className='absolute bottom-[200px] right-12 text-slate-500 hover:text-slate-700' />
 
                             {errors.password && <span className='text-red-500 '>Password is required</span>}

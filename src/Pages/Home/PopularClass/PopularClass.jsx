@@ -31,7 +31,7 @@ const PopularClass = () => {
                                 <p className='text-xs'>Students admitted: {singleClass.no_of_students}</p>
                             </div>
                             <div className="card-actions justify-end">
-                                <Link to='/classes'><button className="btn btn-primary enroll-button">Enroll Now</button></Link>
+                                <Link to='/classes'><button className="btn btn-secondary enroll-button">Enroll Now</button></Link>
                             </div>
                         </div>
                     </div>

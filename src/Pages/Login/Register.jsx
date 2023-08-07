@@ -121,7 +121,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Your Name</span>
                             </label>
-                            <input className="input input-bordered" type='text' {...register("name")} />
+                            <input className="input input-bordered text-white" type='text' {...register("name")} />
                         </div>
 
 
@@ -130,7 +130,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Your Photo URL</span>
                             </label>
-                            <input className="input input-bordered" type='text' {...register("photo")} />
+                            <input className="input input-bordered text-white" type='text' {...register("photo")} />
                         </div>
 
 
@@ -154,7 +154,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Your Phone Number</span>
                                 </label>
-                                <input className="input input-bordered" type='number' {...register("phone")} />
+                                <input className="input input-bordered text-white" type='number' {...register("phone")} />
                             </div>
 
                         </div>
@@ -164,7 +164,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Your Address</span>
                             </label>
-                            <input className="input input-bordered" type='text' {...register("address")} />
+                            <input className="input input-bordered text-white" type='text' {...register("address")} />
                         </div>
 
 
@@ -173,7 +173,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Your Email*</span>
                             </label>
-                            <input className="input input-bordered" type='email' {...register("email")} />
+                            <input className="input input-bordered text-white" type='email' {...register("email")} />
                         </div>
 
 
@@ -182,7 +182,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Your Password*</span>
                             </label>
-                            <input className="relative input input-bordered" type={show ? 'text' : 'password'} {...register("password", {
+                            <input className="relative input input-bordered text-white" type={show ? 'text' : 'password'} {...register("password", {
                                 required: true,
                                 minLength: 6,
                                 pattern: /(?=.*[A-Z])(?=.*[!@#$&*])/
@@ -203,7 +203,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Confirm Password*</span>
                             </label>
-                            <input className="input input-bordered" type='password' {...register("confirm", { required: true })} />
+                            <input className="input input-bordered text-white" type='password' {...register("confirm", { required: true })} />
                             {errors.confirm && <span className='text-red-500'>Confirming password is required</span>}
                             {error && <span className='text-red-500 text-sm'>{error}</span>}
                         </div>
