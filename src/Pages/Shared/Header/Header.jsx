@@ -68,9 +68,9 @@ const Header = ({ setMode, mode }) => {
                                     <Link className="tooltip" data-tip="dashboard" to='/dashboard'><FaUserCircle className='text-red-700 md:text-2xl'/></Link>
                                     <Link className='w-6 md:w-10' to='/profile'><img src={user?.photoURL} className='rounded-full w-6 md:w-10' /></Link>
                                 </div>
-                                <button className="ml-3 btn bg-red-500 hover:bg-red-700 border-0 text-white" onClick={handleLogOut}>Log out</button>
+                                <button className="ml-3 btn bg-red-500 hover:bg-red-700 border-0 text-white" onClick={handleLogOut}>Log-out</button>
                             </> :
-                            <Link to='/login'><button className="btn bg-red-500 hover:bg-red-700 border-0 text-white">Login</button></Link>
+                            <Link to='/login'><button className="btn bg-red-500 hover:bg-red-700 border-0 text-white">Log-in</button></Link>
                     }
 
                 </div>
