@@ -69,7 +69,7 @@ const Dashboard = () => {
 
                     <div className="divider"></div>
                     <li><NavLink to='/'><TbHomeMove /> Home</NavLink></li>
-                    <li><NavLink to='/classes'><SiGoogleclassroom />Classes</NavLink></li>
+                    <li><NavLink to='/classes'><SiGoogleclassroom />Classess</NavLink></li>
                 </ul>
 
             </div>
