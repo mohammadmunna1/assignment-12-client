@@ -42,7 +42,7 @@ const Dashboard = () => {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 h-full bg-gradient-to-b from-violet-300 via-fuchsia-300 to-violet-300 text-base-content">
+                <ul className="menu p-4 w-80 h-full bg-gradient-to-b from-red-300 via-fuchsia-300 to-red-300 text-base-content">
                     {
                         isAdmin ?
                             <>

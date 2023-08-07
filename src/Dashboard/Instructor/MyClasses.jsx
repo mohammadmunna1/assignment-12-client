@@ -53,7 +53,7 @@ const MyClasses = () => {
 
     return (
         <div className='w-full px-8'>
-            <h2 className='text-4xl font-serif text-center my-10 text-violet-800'>My classes</h2>
+            <h2 className='text-4xl font-serif text-center my-10 text-red-800'>My classes</h2>
 
             <dialog id="my_modal_5" className="modal -z-30">
                 <form onSubmit={handleSubmit(onSubmit)} method="dialog" className="modal-box">

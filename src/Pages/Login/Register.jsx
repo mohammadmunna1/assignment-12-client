@@ -106,7 +106,7 @@ const Register = () => {
     return (
         <div className="hero min-h-screen login-page-cover-photo px-2 py-3">
 
-            <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-violet-100 text-slate-900">
+            <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-red-100 text-slate-900">
                 <div className="card-body">
                     <h1 className="text-2xl md:text-3xl  text-center font-semibold mb-5">Create account in <span className='changing-text'>Apex sports</span></h1>
                     <button onClick={handleLogInWithGoogle} className="btn bg-white w-60 mx-auto">

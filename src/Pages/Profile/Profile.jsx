@@ -12,7 +12,7 @@ const Profile = () => {
                 <img className='rounded-full' src={currentUser.image ? currentUser.image : 'Unavailable'} alt="" />
             </div>
 
-            <p className='text-2xl font-serif text-violet-800 mt-3 mb-1'>{currentUser.name ? currentUser.name : 'Unavailable'}</p>
+            <p className='text-2xl font-serif text-red-800 mt-3 mb-1'>{currentUser.name ? currentUser.name : 'Unavailable'}</p>
             <p>Email: {currentUser.email ? currentUser.email : 'Unavailable'}</p>
             <p>Address: {currentUser.address ? currentUser.address : 'Unavailable'}</p>
             <p>Phone: {currentUser.phone ? currentUser.phone : 'Unavailable'}</p>

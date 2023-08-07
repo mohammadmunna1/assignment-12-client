@@ -82,8 +82,8 @@ const Banner = ({ startTour }) => {
                     </div>
                     <div className='ml-5 flex items-center
                      gap-2'>
-                        <div className='rounded-full border-2 border-violet-900 hover:bg-violet-900 p-3 banner-video' onClick={() => window.my_modal_1.showModal()}>
-                            <RxResume className='text-violet-700 hover:text-violet-400' />
+                        <div className='rounded-full border-2 border-red-900 hover:bg-red-900 p-3 banner-video' onClick={() => window.my_modal_1.showModal()}>
+                            <RxResume className='text-red-700 hover:text-red-400' />
                         </div>
                         <p style={{ fontFamily: 'EBGaramond, serif' }} className='text-xl '>Watch Video</p>
                     </div>

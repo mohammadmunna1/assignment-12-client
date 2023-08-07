@@ -17,7 +17,7 @@ const PaymentHistory = () => {
 
     return (
         <div className='w-full px-8'>
-            <h2 className='text-4xl font-serif text-center my-10 text-violet-800'>My Payment History</h2>
+            <h2 className='text-4xl font-serif text-center my-10 text-red-800'>My Payment History</h2>
             <div className="overflow-x-auto">
                 <table className="table text-center">
 

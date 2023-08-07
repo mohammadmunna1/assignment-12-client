@@ -12,7 +12,7 @@ const MyClass = ({ addedClass, index, setUpdatedClassId }) => {
             <td>{no_of_students}</td>
             <td>{feedback}</td>
             <td className={`${status == 'approved' ? 'text-green-500' : 'text-red-500'}`}>{status}</td>
-            <td><button disabled={disabled} className="btn btn-sm btn-ghost bg-violet-600 text-white" onClick={() => {
+            <td><button disabled={disabled} className="btn btn-sm btn-ghost bg-red-600 text-white" onClick={() => {
                 setUpdatedClassId(_id);
                 window.my_modal_5.showModal();
             }}>Update</button></td>

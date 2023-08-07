@@ -12,7 +12,7 @@ const Instructors = () => {
 
     return (
         <div className='my-16'>
-            <h2 className='text-3xl text-center mb-6 font-serif text-violet-800'>Instructors</h2>
+            <h2 className='text-3xl text-center mb-6 font-serif text-red-800'>Instructors</h2>
 
             <div className="overflow-x-auto">
                 <table className="table text-center">

@@ -42,10 +42,10 @@ const Footer = () => {
                 </div>
             </footer>
 
-            <footer className="footer items-center py-3 px-10 bg-gradient-to-r from-violet-200 to-fuchsia-200">
+            <footer className="footer items-center py-3 px-10 bg-gradient-to-r from-red-200 to-fuchsia-200">
                 <div className="items-center grid-flow-col">
                     
-                <div className="text-violet-700">
+                <div className="text-red-700">
                     <p>Copyright © 2023 - All right reserved by E-sports</p>
                 </div>
                 </div>

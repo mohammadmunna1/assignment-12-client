@@ -93,7 +93,7 @@ const ManageClasses = () => {
     console.log(managedClasses)
     return (
         <div className='w-full px-8'>
-            <h2 className='text-4xl font-serif text-center my-10 text-violet-800'>Manage classes</h2>
+            <h2 className='text-4xl font-serif text-center my-10 text-red-800'>Manage classes</h2>
 
             <dialog id="my_modal_3" className="modal">
                 <form method="dialog" className="modal-box">
