@@ -24,7 +24,7 @@ const Banner = ({ startTour }) => {
                             className="responsive-iframe"
                             width="560"
                             height="315"
-                            src="https://www.youtube.com/watch?v=YY2GX_7wR7Y"
+                            src="https://youtu.be/YY2GX_7wR7Y"
                             title="YouTube Video"
                             allowFullScreen
                         ></iframe>
