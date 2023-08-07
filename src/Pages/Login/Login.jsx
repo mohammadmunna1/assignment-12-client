@@ -124,7 +124,7 @@ const Login = () => {
                         <div className="form-control mt-5">
                             <label className="flex items-center gap-3 cursor-pointer">
                                 <input type="checkbox" className="checkbox checkbox-sm" />
-                                <span className="label-text">Remember me for 30 days</span>
+                                <span className="label-text">Remember for 30 days</span>
 
                             </label>
                         </div>
