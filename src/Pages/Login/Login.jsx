@@ -108,7 +108,7 @@ const Login = () => {
                         <div className="form-control">
 
                             <label className="label">
-                                <span className="label-text">Your Password*</span>
+                                <span className="label-text">Your Password</span>
                                 <span className="btn btn-link btn-xs lowercase">Forgot password?</span>
                             </label>
                             <input className='relative input input-bordered text-white' type={show ? 'text' : 'password'} {...register("password", { required: true })} />
