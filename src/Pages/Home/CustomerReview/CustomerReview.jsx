@@ -31,7 +31,7 @@ const CustomerReview = () => {
         {
             id: 4,
             name: 'jACK',
-            comment: 'Joining Apex Sports was the best decision I made for my  development. The personalized coaching has been invaluable.',
+            comment: 'Joining Apex Sports was the best decision I made for my . The personalized coaching has been invaluable.',
             image: '/assets/Customers/customer-4.png',
             rating: 4.6,
             job: 'Professional E-Sports pLAYER'
