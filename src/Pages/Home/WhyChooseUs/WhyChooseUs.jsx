@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                     whileTap={{ scale: 1.3 }} className='w-60 h-68 md:h-80 rounded-lg border-2 p-5 flex flex-col justify-between mx-auto reason'>
                     <BsPersonCheck className='text-3xl md:text-4xl text-red-900 rounded-full border-2 border-red-800' />
                     <h4 className='text-xl md:text-2xl font-semibold my-3 text-left'> Bginning setup</h4>
-                    <p className='text-red-300 text-justify text-sm md:text-md'>We take the time to understand your specific needs and create customized Support programs that cater to your individual requirements.</p>
+                    <p className='text-red-300 text-justify text-sm md:text-md'>We take the time to understand your specific needs and create customized Support programs that cater to your individual requirementss.</p>
                 </motion.button>
                 <motion.button
                     whileHover={{ scale: 1.2 }}
